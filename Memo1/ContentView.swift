@@ -23,14 +23,6 @@ struct ContentView: View {
             }
                 .foregroundColor(.red)
             
-            /*HStack {
-                animals
-                Spacer()
-                love
-                Spacer()
-                faces
-            }*/
-            
         .font(.largeTitle)
         .padding(.horizontal)
                   
@@ -39,54 +31,7 @@ struct ContentView: View {
     }
 }
     
-    /*var love: some View {
-        Button {
-            emojis = ["❤️","💔","💛","💙","💚","🖤","💜","❣️"]
-            emojiCount = 8
-            emojis.shuffle()
-        }
-        
-            label: {
-                
-                VStack{
-                Image(systemName: "heart").font(.largeTitle)
-                    Text("Love").font(/*@START_MENU_TOKEN@*/.caption/*@END_MENU_TOKEN@*/)
-                }
-                
-            }
-        
-    }
-    
-
-    var animals: some View {
-        Button {
-            emojis = ["🐶","🐷","🦋","🦄","🙊","🐻‍❄️","🦉","🐍","🐥"]
-            emojiCount = 9
-            emojis.shuffle()
-        } label: {
-            
-            VStack {
-                Image(systemName: "hare").font(.largeTitle)
-                Text("Animals").font(/*@START_MENU_TOKEN@*/.caption/*@END_MENU_TOKEN@*/)
-            }
-        }
-    }
-    var faces: some View {
-        Button {
-            emojis = ["😃","🙂","😅","🤣","😉","🥲","😌","🥰","😎","😗"]
-            emojiCount = 10
-            emojis.shuffle()
-            
-            } label: {
-                
-                VStack {
-                Image(systemName: "person").font(.largeTitle)
-                Text("Faces").font(/*@START_MENU_TOKEN@*/.caption/*@END_MENU_TOKEN@*/)
-                }
-            }
-    }
-}
-*/
+ 
 
 
 
