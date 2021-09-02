@@ -43,9 +43,11 @@ struct CardView: View {
             let shape = RoundedRectangle(cornerRadius: 20)
             if card.isFaceUp {
                 shape.fill().foregroundColor(.white)
-            shape.stroke(lineWidth: 3)
-                Text(card.content) } else
-            {
+                shape.stroke(lineWidth: 3)
+                Text(card.content)
+            } else if card.isMatched {
+                shape.opacity(0)
+            } else {
                 shape.fill()
             }
     }
